@@ -1,6 +1,6 @@
 import jenkins.model.*
 
-def GITURL = 'https://github.com/larshp/abapGit'
+def GITURL = 'https://github.com/ravishankarojha/abapGit'
 def BRANCH = 'master'
 def PIPELINE_GITURL = 'https://github.com/pacroy/abap-ci-postman.git'
 def PACKAGE = '''$REST_SIMPLE'''
