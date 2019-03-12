@@ -29,7 +29,7 @@ parallel (
         	sap_pipeline.sap_api_test(LABEL,HOST,CREDENTIAL)
         }
     }
-    /* Add more system as needed...
+     Add more system as needed...
 	,"NPL":{
         node {
         	def LABEL = "NPL"
@@ -50,4 +50,4 @@ parallel (
         	sap_pipeline.abap_sci(LABEL,HOST,CREDENTIAL,PACKAGE,VARIANT)
         	sap_pipeline.sap_api_test(LABEL,HOST,CREDENTIAL)
         }
-	} */
+	} 
